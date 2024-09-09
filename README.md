@@ -42,6 +42,7 @@ Amazon S3 is used to host the game as a static website.
 
 ### 3. Set Up AWS CodePipeline for Automated Deployment
 AWS CodePipeline automates the deployment process, pushing changes from GitHub to S3.
+![AWS Code Pipeline](https://github.com/user-attachments/assets/3173d48d-5cf4-4e7d-a02f-cd1596d24a73)
 
 #### Steps:
 1. **Source Stage**:
@@ -59,9 +60,14 @@ Once CodePipeline is set up:
 - It automatically fetches code from GitHub and deploys it to S3.
 - The game will be accessible via the S3 bucket's static website URL.
 
+![Live Game](https://github.com/user-attachments/assets/1475b9c2-cab7-4c87-831a-5a2cdd5ca50e)
+
+
 ### 5. Continuous Deployment and Code Updates
 - **Automatic Updates**: Whenever you make updates to the code (e.g., changing the welcome message in `index.html`), CodePipeline detects the changes and redeploys the updated code to S3.
 - **Live Updates**: The changes will be reflected immediately on the live site.
+
+![Game over after two MEMES match](https://github.com/user-attachments/assets/f835b364-2432-4f49-80e6-77fc356c7ade)
 
 ## Clean-Up
 After completing the project, clean up the AWS resources to avoid incurring unnecessary costs.
