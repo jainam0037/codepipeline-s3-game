@@ -28,6 +28,8 @@ Amazon S3 is used to host the game as a static website.
 #### Steps:
 1. **Create an S3 Bucket**:
    - Go to the AWS Management Console, navigate to S3, and create a bucket (ensure the name is globally unique).
+![Setting Up the S3 Bucket ](https://github.com/user-attachments/assets/5f2389f7-3396-4fc0-a735-9e4d68b251ba)
+
 
 2. **Public Access**:
    - Disable "Block all public access" to make the website accessible publicly.
